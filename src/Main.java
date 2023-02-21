@@ -13,8 +13,16 @@ public class Main {
         float g = 1f;
         System.out.println(g);
 
+        byte ludmilaPavlovna = 23;
+        byte annaSergeevna = 27;
+        byte ekaterinaAndreevna = 30;
+        int studentAll = ludmilaPavlovna + annaSergeevna + ekaterinaAndreevna;
+        System.out.println("Всего учеников"+ studentAll +"в 3х классах");
+         short peperAll = 480;
+        System.out.println("На каждого ученика"+ ( peperAll/studentAll ) +"Листов бумаги");
 
-
+        {
+    }
 
     }
 }
