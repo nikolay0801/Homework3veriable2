@@ -1,26 +1,14 @@
 public class Main {
     public static void main(String[] args)
     {
-
-        long bananes = 80;
-        long weigtBananes = bananes * 5;
-        System.out.println("Общий вес бананов " + weigtBananes + "граммах!");
-        long milk = 105;
-        long weightMilk = milk * 2;
-        System.out.println("Общий вес молока " + weightMilk + "граммах!");
-        long iceCreame = 100;
-        long weightIceCreame = iceCreame * 2;
-        System.out.println("Общий вес мороженного " +  weightIceCreame+ "граммах!");
-        long egg  = 70;
-        long weightEgg = egg * 4;
-        System.out.println("Общий вес яиц " + weightEgg+ "граммах!");
-        float totalWeightOfProducts = weigtBananes + weightMilk + weightIceCreame + weightEgg;
-        System.out.println("Общий вес продуктов" + totalWeightOfProducts / 1000 + "кг!");
-
-
-
-
-
+        int gramm250 = 250;
+        int gramm500 = 500;
+        byte needToThrow = 7;
+        short weightInGramm = 7 *1000;
+        int numberOfDaysWhenDropping250gr =  weightInGramm / gramm250;
+        int numberOfDaysWhenDropping500gr = weightInGramm / gramm500;
+        System.out.println("За" + numberOfDaysWhenDropping250gr + " дней спортсмен похудеет, если будет тратить в день 250 гр");
+        System.out.println("За" + numberOfDaysWhenDropping500gr + " дней спортсмен похудеет, если будет тратить в день 500 гр");
 
         {
     }
